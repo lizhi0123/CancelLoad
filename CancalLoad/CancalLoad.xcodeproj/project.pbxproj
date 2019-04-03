@@ -1,0 +1,406 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A3E5B1A225338AA00F04643 /* QKProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A3E5B19225338AA00F04643 /* QKProgressHUD.m */; };
+		5AD398F62251E2B0005F0A45 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD398F52251E2B0005F0A45 /* AppDelegate.m */; };
+		5AD398F92251E2B0005F0A45 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD398F82251E2B0005F0A45 /* ViewController.m */; };
+		5AD398FC2251E2B0005F0A45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AD398FA2251E2B0005F0A45 /* Main.storyboard */; };
+		5AD398FE2251E2B1005F0A45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AD398FD2251E2B1005F0A45 /* Assets.xcassets */; };
+		5AD399012251E2B1005F0A45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AD398FF2251E2B1005F0A45 /* LaunchScreen.storyboard */; };
+		5AD399042251E2B1005F0A45 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD399032251E2B1005F0A45 /* main.m */; };
+		5AD3990F225217BA005F0A45 /* QKRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD3990E225217BA005F0A45 /* QKRequestManager.m */; };
+		BC7AE597C44372661563D2B5 /* libPods-CancalLoad.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 200608E26C9A065313973813 /* libPods-CancalLoad.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		200608E26C9A065313973813 /* libPods-CancalLoad.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CancalLoad.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A3E5B18225338AA00F04643 /* QKProgressHUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QKProgressHUD.h; sourceTree = "<group>"; };
+		5A3E5B19225338AA00F04643 /* QKProgressHUD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QKProgressHUD.m; sourceTree = "<group>"; };
+		5AD398F12251E2B0005F0A45 /* CancalLoad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CancalLoad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AD398F42251E2B0005F0A45 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5AD398F52251E2B0005F0A45 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5AD398F72251E2B0005F0A45 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5AD398F82251E2B0005F0A45 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5AD398FB2251E2B0005F0A45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5AD398FD2251E2B1005F0A45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5AD399002251E2B1005F0A45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5AD399022251E2B1005F0A45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AD399032251E2B1005F0A45 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5AD3990D225217BA005F0A45 /* QKRequestManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QKRequestManager.h; sourceTree = "<group>"; };
+		5AD3990E225217BA005F0A45 /* QKRequestManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QKRequestManager.m; sourceTree = "<group>"; };
+		6CB4D60F9394AC0935BABFAB /* Pods-CancalLoad.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CancalLoad.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CancalLoad/Pods-CancalLoad.debug.xcconfig"; sourceTree = "<group>"; };
+		A3B3B69B62A02EAD6FD5A419 /* Pods-CancalLoad.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CancalLoad.release.xcconfig"; path = "Pods/Target Support Files/Pods-CancalLoad/Pods-CancalLoad.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5AD398EE2251E2B0005F0A45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC7AE597C44372661563D2B5 /* libPods-CancalLoad.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5AD398E82251E2AF005F0A45 = {
+			isa = PBXGroup;
+			children = (
+				5AD398F32251E2B0005F0A45 /* CancalLoad */,
+				5AD398F22251E2B0005F0A45 /* Products */,
+				C87DC3A40095BB70D294D664 /* Pods */,
+				7245CCBBEAD00349E606E1B6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5AD398F22251E2B0005F0A45 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5AD398F12251E2B0005F0A45 /* CancalLoad.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5AD398F32251E2B0005F0A45 /* CancalLoad */ = {
+			isa = PBXGroup;
+			children = (
+				5AD398F42251E2B0005F0A45 /* AppDelegate.h */,
+				5AD398F52251E2B0005F0A45 /* AppDelegate.m */,
+				5AD398F72251E2B0005F0A45 /* ViewController.h */,
+				5AD398F82251E2B0005F0A45 /* ViewController.m */,
+				5AD398FA2251E2B0005F0A45 /* Main.storyboard */,
+				5AD398FD2251E2B1005F0A45 /* Assets.xcassets */,
+				5AD398FF2251E2B1005F0A45 /* LaunchScreen.storyboard */,
+				5AD399022251E2B1005F0A45 /* Info.plist */,
+				5AD399032251E2B1005F0A45 /* main.m */,
+				5AD3990D225217BA005F0A45 /* QKRequestManager.h */,
+				5AD3990E225217BA005F0A45 /* QKRequestManager.m */,
+				5A3E5B18225338AA00F04643 /* QKProgressHUD.h */,
+				5A3E5B19225338AA00F04643 /* QKProgressHUD.m */,
+			);
+			path = CancalLoad;
+			sourceTree = "<group>";
+		};
+		7245CCBBEAD00349E606E1B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				200608E26C9A065313973813 /* libPods-CancalLoad.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C87DC3A40095BB70D294D664 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6CB4D60F9394AC0935BABFAB /* Pods-CancalLoad.debug.xcconfig */,
+				A3B3B69B62A02EAD6FD5A419 /* Pods-CancalLoad.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5AD398F02251E2B0005F0A45 /* CancalLoad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AD399072251E2B1005F0A45 /* Build configuration list for PBXNativeTarget "CancalLoad" */;
+			buildPhases = (
+				FEA130E9FA6893B681C6B091 /* [CP] Check Pods Manifest.lock */,
+				5AD398ED2251E2B0005F0A45 /* Sources */,
+				5AD398EE2251E2B0005F0A45 /* Frameworks */,
+				5AD398EF2251E2B0005F0A45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CancalLoad;
+			productName = CancalLoad;
+			productReference = 5AD398F12251E2B0005F0A45 /* CancalLoad.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5AD398E92251E2AF005F0A45 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Sunny;
+				TargetAttributes = {
+					5AD398F02251E2B0005F0A45 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 5AD398EC2251E2AF005F0A45 /* Build configuration list for PBXProject "CancalLoad" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5AD398E82251E2AF005F0A45;
+			productRefGroup = 5AD398F22251E2B0005F0A45 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5AD398F02251E2B0005F0A45 /* CancalLoad */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5AD398EF2251E2B0005F0A45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AD399012251E2B1005F0A45 /* LaunchScreen.storyboard in Resources */,
+				5AD398FE2251E2B1005F0A45 /* Assets.xcassets in Resources */,
+				5AD398FC2251E2B0005F0A45 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FEA130E9FA6893B681C6B091 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CancalLoad-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5AD398ED2251E2B0005F0A45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A3E5B1A225338AA00F04643 /* QKProgressHUD.m in Sources */,
+				5AD398F92251E2B0005F0A45 /* ViewController.m in Sources */,
+				5AD399042251E2B1005F0A45 /* main.m in Sources */,
+				5AD3990F225217BA005F0A45 /* QKRequestManager.m in Sources */,
+				5AD398F62251E2B0005F0A45 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5AD398FA2251E2B0005F0A45 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AD398FB2251E2B0005F0A45 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5AD398FF2251E2B1005F0A45 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AD399002251E2B1005F0A45 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5AD399052251E2B1005F0A45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5AD399062251E2B1005F0A45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5AD399082251E2B1005F0A45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CB4D60F9394AC0935BABFAB /* Pods-CancalLoad.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M9RDKX4YNM;
+				INFOPLIST_FILE = CancalLoad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SN.CancalLoad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5AD399092251E2B1005F0A45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3B3B69B62A02EAD6FD5A419 /* Pods-CancalLoad.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M9RDKX4YNM;
+				INFOPLIST_FILE = CancalLoad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SN.CancalLoad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5AD398EC2251E2AF005F0A45 /* Build configuration list for PBXProject "CancalLoad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AD399052251E2B1005F0A45 /* Debug */,
+				5AD399062251E2B1005F0A45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AD399072251E2B1005F0A45 /* Build configuration list for PBXNativeTarget "CancalLoad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AD399082251E2B1005F0A45 /* Debug */,
+				5AD399092251E2B1005F0A45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5AD398E92251E2AF005F0A45 /* Project object */;
+}
